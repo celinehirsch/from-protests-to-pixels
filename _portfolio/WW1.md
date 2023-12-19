@@ -1,10 +1,10 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: World War 1
+  title: World War I
   thumbnail: WW1-thumbnail.png
   
 #what displays when the item is clicked:
-title: World War 1
+title: World War I
 subtitle: 1914-1918
 image: WW1.png
 alt: image alt text
