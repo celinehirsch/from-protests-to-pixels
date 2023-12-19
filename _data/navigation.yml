@@ -17,10 +17,13 @@ en: &DEFAULT_EN
       section: services
     - title: "Events"
       section: portfolio
+    - title: "Analysis"
+      section: analysis
+    - title: "Conclusion"
+      section: conclusion
     - title: "Team"
       section: team
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+
 en-US:
   <<: *DEFAULT_EN
 en-CA:
