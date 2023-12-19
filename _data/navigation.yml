@@ -13,16 +13,12 @@ en: &DEFAULT_EN
   nav:
     - title: "Abstract"
       section: about
-    - title: "Services"
+    - title: "Dataset"
       section: services
     - title: "Events"
       section: portfolio
-    - title: "Timeline"
-      section: timeline
     - title: "Team"
       section: team
-    - title: "Contact"
-      section: contact
     - title: "Theme Source"
       url: https://github.com/raviriley/agency-jekyll-theme/
 en-US:
