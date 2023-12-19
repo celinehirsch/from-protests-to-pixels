@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: From Protests to Pixels
-    text: The Global Film Industry’s Reflections on the Biggest Movements and Events of the Last Century.
+    title: The Global Film Industry’s Reflections on the Biggest Movements and Events of the Last Century.
+    text: From Protests to Pixels
     button: Tell Me More
     buttonlink: "#services"
 
