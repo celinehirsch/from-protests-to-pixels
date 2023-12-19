@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   nav:¨
-    - title: "Dataset"
+    - title: "Services"
       section: services
     - title: "Events"
       section: portfolio
