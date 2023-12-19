@@ -60,6 +60,11 @@ en: &DEFAULT_EN
     text6: "explaining text"
     section: analysis
 
+  conclusion:
+    title: "Conclusion"
+    text: "Most impactful event of the last century..."
+    section: conclusion
+
   team:
     title: "OUR TEAM"
     text: "Lorem ipsum dolor sit amet consectetur."
