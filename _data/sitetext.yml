@@ -37,60 +37,28 @@ en: &DEFAULT_EN
     section: portfolio
     closebutton: "Close"
 
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
-
   about:
     title: "Abstract"
     text: "our story"
     body: "The last century witnessed key social and political events that transformed many facets of human society, ranging from World War I, to Female Emancipation, to the Opioid Crisis. Cinema being a way to depict real-life (as many other forms of art), can reflect all those core societal events and movements. The goal of our project is to analyse how these events were represented by the Film Industry and how their corresponding movies were received by the public. Were certain movies watched more than others? Did the public like certain movies more? How international was the ensemble of movie producers for each event? By answering these questions and more, we want to evaluate which event of the last century was the most impactful one. Were certain movies watched more than others? Did the public like certain movies more? How international was the ensemble of movie producers for each event? By answering these questions and more, we want to evaluate which event of the last century was the most impactful one."
     section: about
-
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+  
+  analysis:
+    title: "Analysis"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtitle1: "Number of movies"
+    text1: "explaining text"
+    subtitle2: "Internationality"
+    text2: "explaining text"
+    subtitle3: "Fame"
+    text3: "explaining text"
+    subtitle4: "Rating"
+    text4: "explaining text"
+    subtitle5: "Genres"
+    text5: "explaining text"
+    subtitle6: "Sentiment"
+    text6: "explaining text"
+    section: analysis
 
   team:
     title: "OUR TEAM"
