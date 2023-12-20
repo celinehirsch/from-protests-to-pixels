@@ -17,7 +17,7 @@
       </div>
       <div class="container">
         <div class="row text-center">
-          <div class="col-lg-8 mx-auto">
+          <div class="col-lg-8 mx-auto text-justify">
             <div class="modal-body">
               <!-- Project Details Go Here -->
               <h2 class="text-uppercase">{{ project.title }}</h2>
@@ -26,17 +26,19 @@
                 src="{{ project.image }}"
                 alt="{{ project.alt }}"
               />
-              <p class="large text-justify">{{ project.content }}</p>
+              <p>{{ project.content }}</p>
               <iframe src="{{ project.wordcloud }}" width="600" height="400" frameborder="0"></iframe>
-              <button
+              <div class="d-flex justify-content-center">
+                <button
                 class="btn btn-primary"
                 data-dismiss="modal"
                 type="button"
-              >
+                >
                 <i class="fas fa-times"></i>
                 {{ site.data.sitetext[site.locale].portfolio.closebutton |
                 default: "Close Project" }}
               </button>
+              </div>
             </div>
           </div>
         </div>
