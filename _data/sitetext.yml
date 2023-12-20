@@ -21,15 +21,25 @@ en: &DEFAULT_EN
     text: "Our dataset contains..."
     section: services
     list:
-      - title: "Stats about dataset"
+      - title: "Movies"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Stats about dataset"
+        icon: "42'204"
+      - title: "Years"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "Stats about dataset"
+        icon: "1893.0 - 2014.0"
+      - title: "Continents"
         desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+        icon: "6"
+      - title: "Box Office Revenue"
+        desc: "Explanation"
+        icon: "426 Billion $"
+      - title: "Top Genre"
+        desc: "Explanation"
+        icon: "drama comedy action"
+      - title: "Average Summary Length"
+        desc: "Explanation"
+        icon: "tbd"
+
 
   portfolio:
     title: "Events"
