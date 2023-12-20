@@ -8,6 +8,7 @@ title: Vietnam War
 subtitle: 
 image: WW1.png
 alt: image alt text
+wordcloud: plots/VietnamWar_wordcloud.html
 
 ---
 The Vietnam War lasted between 1955 and 1975 and consisted of the communist government of North Vietnam which was backed by the Soviet Union fighting the non-communist government of South Vietnam which was backed by the United States. It was one of the indirect battles that the US and the USSR fought during the Cold War to prove the superiority of their respective ideologies and spread it. 
