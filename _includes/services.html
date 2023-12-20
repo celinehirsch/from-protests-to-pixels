@@ -18,15 +18,9 @@
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <!-- i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i -->
-            <strong class="{{ service.icon | default: '0' }} fa-stack-1x fa-inverse" style="font-size:30%;">
-              {{ service.icon | newline_to_br }}
-              {% if service.icon1 %}
-              <br>{{ service.icon1 | newline_to_br }}
-              {% endif %}
-              {% if service.icon2 %}
-              <br>{{ service.icon2 | newline_to_br }}
-              {% endif %}
-          </strong>
+            <strong class="{{ service.icon | default: '0' }} fa-stack-1x fa-inverse" style="font-size:30%; max-width:300px; display:inline-block;">
+              {{ service.icon | default: "0" }}
+            </strong>            
           </span>
           <h4 class="service-heading">{{ service.title | markdownify }}</h4>
           {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
