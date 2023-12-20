@@ -20,6 +20,12 @@
             <!-- i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i -->
             <strong class="{{ service.icon | default: '0' }} fa-stack-1x fa-inverse" style="font-size:30%;">
               {{ service.icon | newline_to_br }}
+              {% if service.icon1 %}
+              <br>{{ service.icon1 | newline_to_br }}
+              {% endif %}
+              {% if service.icon2 %}
+              <br>{{ service.icon2 | newline_to_br }}
+              {% endif %}
           </strong>
           </span>
           <h4 class="service-heading">{{ service.title | markdownify }}</h4>
