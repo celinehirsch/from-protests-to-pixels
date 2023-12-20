@@ -13,45 +13,16 @@
       </div>
 	  
       <div class="row text-center">
-      <!-- Number of movies -->
+	  {% for service in site.data.sitetext[site.locale].services.list %}
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <strong class="fa-stack-1x fa-inverse" style="font-size:40%;">
-              42'204
+            <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading"> Movies </h4>
-          <div class="text-muted"> Explanation. </div>
+          <h4 class="service-heading">{{ service.title | markdownify }}</h4>
+          {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
         </div>
-      <!-- Number of movies -->
-
-
-      <!-- Number of movies -->
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <strong class="fa-stack-1x fa-inverse" style="font-size:40%;">
-              42'204
-          </span>
-          <h4 class="service-heading"> Movies </h4>
-          <div class="text-muted"> Explanation. </div>
-        </div>
-      <!-- Number of movies -->
-
-
-      <!-- Number of movies -->
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <strong class="fa-stack-1x fa-inverse" style="font-size:40%;">
-              42'204
-          </span>
-          <h4 class="service-heading"> Movies </h4>
-          <div class="text-muted"> Explanation. </div>
-        </div>
-      <!-- Number of movies -->
-
-
+	  {% endfor %}
       </div>
 	  
     </div>
