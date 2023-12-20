@@ -16,8 +16,8 @@ layout: default
     <!-- Include the content of your analysis HTML file -->
     {% include analysis.html %}
 
-    <!-- Include the content of your interactive plot -->
-    {% include vote_rating.html %}
+    <!-- Embed the interactive plot using an iframe -->
+    <iframe src="{{ site.baseurl }}/_includes/vote_rating.html" width="800" height="600" frameborder="0"></iframe>
 
 </body>
 </html>
