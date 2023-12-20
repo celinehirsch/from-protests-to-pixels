@@ -26,7 +26,10 @@ en: &DEFAULT_EN
         icon: "42'204"
       - title: "Years"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: "1893" <br> "-" <br> "2014"
+        icon: |
+          1893
+          -
+          2014
       - title: "Continents"
         desc: "Your description here, full **Markdown** support"
         icon: "6"
