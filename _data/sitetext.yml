@@ -113,7 +113,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "Céline Hirsch"
         role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+        image: assets/img/team/4.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
