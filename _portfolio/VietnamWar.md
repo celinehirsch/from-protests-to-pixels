@@ -17,6 +17,7 @@ The war was characterized by guerilla warfare, extensive use of chemical agents 
 With the Paris Peace Accords being signed in 1973, the US started to gradually withdraw its forces. The war officially ended in 1975 with the fall of the capital of South Vietnam, establishing Vietnam as a unified communist country.
 
 {:.list-inline} 
-- **Dictionary**: vietnam war, viet cong, viet, viets, agent orange, napalm, tet offensive, my lai massacre, hanoi, saigon, tonkin, paris peace accords, rolling thunder, agent blue, 1954, 1974, nixon, mekong delta, draft, war powers act, veteran, agent blue, purple heart, vietnamization, cambodia, kennedy, laos, ptsd, veterans, vietnam.
+- **Dictionary**: 
+vietnam war, viet cong, viet, viets, agent orange, napalm, tet offensive, my lai massacre, hanoi, saigon, tonkin, paris peace accords, rolling thunder, agent blue, 1954, 1974, nixon, mekong delta, draft, war powers act, veteran, agent blue, purple heart, vietnamization, cambodia, kennedy, laos, ptsd, veterans, vietnam.
 
 - **Most common words in plot summaries**: 
