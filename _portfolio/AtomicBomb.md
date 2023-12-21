@@ -1,12 +1,12 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Atomic Bomb
-  thumbnail: WW1-thumbnail.png
+  thumbnail: AtomicBomb.jpg
   
 #what displays when the item is clicked:
 title: Atomic Bomb
 subtitle: 
-image: WW1.png
+image: 
 alt: image alt text
 wordcloud: plots/AtomicBomb_wordcloud.html
 
