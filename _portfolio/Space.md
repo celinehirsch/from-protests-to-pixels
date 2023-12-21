@@ -16,9 +16,7 @@ The Space Race describes an international competition between the United States 
 The start of the Space Race is marked by the launching of the first artificial satellite “Sputnik 1” by the USSR in 1957. In 1969 the US NASA performed the Apollo 11 mission with which they landed the first human being on the moon, Neil Armstrong. 
 The end of the Space Race was marked with increased cooperation between the two powers in terms of space exploration, exemplified by the “Apollo-Soyuz” mission in 1975.
 
-optional info list (delete if not using):
-
 {:.list-inline} 
-- Date: 
-- Client: 
-- Category: 
+- **Dictionary**: moon landing, 1969, apollo 11, apollo, space race, neil armstrong, buzz aldrin, michael collins, lunar module, command module, lunar surface, moon mission, lunar landing, astronauts, astronaut, flag planting, apollo program, spaceflight, saturn 5, saturn v, laika, moonwalk, moon rover, spacecraft, nasa, solar system, mars, satellite, satellites, international space station, iss, yuri gagarin, gagarin, sputnik, mercury program, mercury, vostok program, vostok, luna program, space shuttle program, mir space station, gemini, soyuz, spacewalk, moonwalk, space shuttle, cosmonaut, launchpad, skylab, lunar rover, space capsule, space exploration.
+
+- **Most common words in plot summaries**: 
