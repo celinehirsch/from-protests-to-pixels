@@ -16,6 +16,7 @@ The digital revolution, emerging in the latter half of the 20th century, represe
 
 {:.list-inline} 
 - **Dictionary**: 
+
 internet, drones, computer, mobile phone, web, robots, artificial intelligence, ai, social media, hackers, laptop, screen, facebook, software, instagram, twitter, smartphone, computers, mobile phones, darkweb, google, microsoft, hacking, cybersecurity, cyber-attack, cyber attack, cybercrime, hacker automation, connectivity, data analytics, machine learning, blockchain, augmented reality, virtual reality, digital, big data, smart devices, digital innovation.
 
 - **Most common words in plot summaries**: 

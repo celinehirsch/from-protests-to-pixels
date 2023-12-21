@@ -18,6 +18,7 @@ With the Paris Peace Accords being signed in 1973, the US started to gradually w
 
 {:.list-inline} 
 - **Dictionary**: 
+
 vietnam war, viet cong, viet, viets, agent orange, napalm, tet offensive, my lai massacre, hanoi, saigon, tonkin, paris peace accords, rolling thunder, agent blue, 1954, 1974, nixon, mekong delta, draft, war powers act, veteran, agent blue, purple heart, vietnamization, cambodia, kennedy, laos, ptsd, veterans, vietnam.
 
 - **Most common words in plot summaries**: 

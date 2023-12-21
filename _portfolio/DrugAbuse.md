@@ -16,6 +16,7 @@ Drug abuse entails the excessive, hazardous and harmful consumption of both lega
 
 {:.list-inline} 
 - **Dictionary**: 
+
 drug, opioid crisis, opioids, opioid, prescription painkillers, heroin, fentanyl, overdose, naloxone, substance abuse, pain management, methadone, morphine, buprenorphine, narcotic analgesics, overdosed, morphium, pain reliever, pain relievers, pain killer, pain killers, pain relief, syringe, syringes, addiction, substance abuse, overdosing, withdrawal, narcotics, detoxification, relapse, cocaine, methamphetamine, gateway drugs, gateway drug.
 
 - **Most common words in plot summaries**: 

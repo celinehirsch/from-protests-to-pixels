@@ -16,6 +16,7 @@ The LGBTQIA+ movement has its roots in the mid-20th century, emerging as a respo
 
 {:.list-inline} 
 - **Dictionary**: 
+
 gay, gays, lesbians, lesbian, lgbt pride, bisexual, bisexuality, bisexuals, drag queen, transexual, marriage equality, homosexual, homosexual, coming out, homosexual rights, aids stigma, non binary, queer, freddie mercury, lgbtq+, two-spirit, transphobia, gender identity, lgbtqia+, transgender, gender fluid, gender fluidity, asexual, pansexual, same-sex marriage, transsexual, non-binary, bisexuality, homosexuality, transsexuality, homophobia, homophobic, homophobe, gender dysphoria, stonewall, lgbt, lgbtq, sexual orientation, drag show, drag performance, sex change, gender affirming surgery, pride, pansexuality, asexuality, gender, drag queen.
 
 - **Most common words in plot summaries**: 
