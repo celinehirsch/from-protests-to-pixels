@@ -5,6 +5,7 @@ caption: #what displays in the portfolio grid:
   
 #what displays when the item is clicked:
 title: World War I
+order: 1
 subtitle: 1914-1918
 image: 
 alt: #image alt text

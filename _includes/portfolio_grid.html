@@ -13,7 +13,8 @@
       </div>
     </div>
     <div class="row">
-	{% for project in site.portfolio %}
+  {% assign sorted_projects = site.portfolio | sort: 'order' %}
+  {% for project in sorted_projects %}
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
           <div class="portfolio-hover">

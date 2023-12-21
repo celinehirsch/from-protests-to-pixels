@@ -5,6 +5,7 @@ caption: #what displays in the portfolio grid:
   
 #what displays when the item is clicked:
 title: The Emergence of STDs
+order: 8
 subtitle: 
 image:
 alt: #image alt text

@@ -5,6 +5,7 @@ caption: #what displays in the portfolio grid:
   
 #what displays when the item is clicked:
 title: The Digital Revolution
+order: 11
 subtitle: 
 image:
 alt: #image alt text

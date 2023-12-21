@@ -5,6 +5,7 @@ caption: #what displays in the portfolio grid:
   
 #what displays when the item is clicked:
 title: Space Exploration
+order: 4
 subtitle: 
 image: 
 alt: #image alt text
