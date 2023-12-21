@@ -9,7 +9,7 @@ order: 2
 subtitle: 
 image:
 alt: #image alt text
-wordcloud: assets/img/wordclouds/WW2_wordcloud.html
+wordcloud: assets/img/wordclouds/WW2_wordcloud.png
 
 ---
 World War II was a global conflict that lasted from 1939 to 1945. The war began with Germany's invasion of Poland which compelled France and Great Britain to declare war on Germany. This further escalated, leading to the so-called Axis powers (Nazi Germany, Imperial Japan and Fascist Italy) to seek land expansion. 
