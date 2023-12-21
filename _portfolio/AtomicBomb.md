@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Atomic Bomb
-  thumbnail: AtomicBomb.jpg
+  thumbnail: assets/img/portfolio/AtomicBomb.jpg
   
 #what displays when the item is clicked:
 title: Atomic Bomb
