@@ -1,14 +1,14 @@
 ---
 caption: #what displays in the portfolio grid:
   title: LGBTQ Emancipation
-  thumbnail: WW1-thumbnail.png
+  thumbnail: assets/img/portfolio/LGBTQ.jpg
   
 #what displays when the item is clicked:
 title: LGBTQ Emancipation
 subtitle: 
-image: WW1.png
-alt: image alt text
-wordcloud: plots/LGBTQ_wordcloud.html
+image:
+alt: #image alt text
+wordcloud: assets/img/wordclouds/LGBTQ_wordcloud.png
 
 ---
 The LGBTQIA+ movement has its roots in the mid-20th century, emerging as a response to the pervasive discrimination and marginalization faced by people with diverse sexual orientations and gender identities. The acronym stands for “Lesbian”, “Gay”, “Bisexual”, “Transgender”, “Queer” or “Questioning”, “Intersex”, “Asexua”l or “Ally”, and the "+" represents an inclusive shorthand for additional sexual orientations or gender identities beyond the initial letters. The Stonewall riots in 1969, a series of spontaneous protests against police raids on gay bars in New York City marked a turning point galvanizing the LGBTQIA+ movement to demand equal rights and denounce societal oppression. On the 28th June 1970, one year after the uprising, the first gay pride marches took place in several cities across the US establishing an annual worldwide tradition to commemorate the Stonewall riots.Significant milestones like the removal of homosexuality from the American Psychiatric Association's list of mental disorders in 1973 and the legalization of same-sex marriage in various countries underscore the movement's profound impact on reshaping societal mindsets to foster a more inclusive and accepting world.

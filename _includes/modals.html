@@ -27,7 +27,9 @@
                 alt="{{ project.alt }}"
               />
               <div class="large text-muted text-justify">{{ project.content }}</div>
-              <iframe src="{{ project.wordcloud }}" width="600" height="400" frameborder="0"></iframe>
+              <div class="d-flex justify-content-center">
+                <img class="img-fluid" src="{{ project.caption.wordcloud }}" alt="">
+              </div>
               <div class="d-flex justify-content-center">
                 <button
                 class="btn btn-primary"

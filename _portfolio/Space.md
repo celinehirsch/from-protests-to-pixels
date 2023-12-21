@@ -1,14 +1,14 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Space Exploration
-  thumbnail: WW1-thumbnail.png
+  thumbnail: assets/img/portfolio/Space.jpg
   
 #what displays when the item is clicked:
 title: Space Exploration
 subtitle: 
-image: WW1.png
-alt: image alt text
-wordcloud: plots/Space_wordcloud.html
+image: 
+alt: #image alt text
+wordcloud: assets/img/wordclouds/Space_wordcloud.png
 
 ---
 The Space Race describes an international competition between the United States and the Soviet Union to achieve success in space exploration and technology. This was during the Cold War, being one of the non-military stages where the war took place, each country trying to show their superiority and therefore the superiority of their ideology (capitalism vs communism). 
