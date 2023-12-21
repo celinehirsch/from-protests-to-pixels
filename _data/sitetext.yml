@@ -96,7 +96,6 @@ en: &DEFAULT_EN
 
   team:
     title: "OUR TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
     section: team
     people:
       - name: "Gianna Biino"
