@@ -95,6 +95,7 @@ en: &DEFAULT_EN
 
   conclusion:
     title: "Conclusion"
+    intro: "conclusion intro"
     text: "Most impactful event of the last century..."
     section: conclusion
 
