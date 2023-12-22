@@ -138,6 +138,10 @@ en: &DEFAULT_EN
     social:
       - url: https://twitter.com
         icon: fab fa-github-alt
+      - url: https://twitter.com
+        icon: fab fa-github
+      - url: https://twitter.com
+        icon: fab fa-github-square
   
 en-US:
   <<: *DEFAULT_EN
