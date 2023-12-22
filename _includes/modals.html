@@ -26,6 +26,9 @@
               <div class="d-flex justify-content-center">
                 <img class="img-fluid d-block mx-auto" src="{{ project.wordcloud }}" alt="">
               </div>
+              {% if project.image_source %}
+                <p class="small text-muted">[Source of the thumbnail image: project.image_source]</p>
+              {% endif %}
               <div class="d-flex justify-content-center">
                 <button
                 class="btn btn-primary"
