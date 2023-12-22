@@ -103,31 +103,31 @@ en: &DEFAULT_EN
     section: team
     people:
       - name: "Gianna Biino"
-        role: "Lead Designer"
+        role: "Notebook Organisation Queen"
         image: assets/img/team/1.jpg
         social:
           - url: https://github.com
             icon: fa fa-github
       - name: "Charlotte Daumal"
-        role: "Lead Marketer"
+        role: "Keyword Processing Maestro"
         image: assets/img/team/2.jpg
         social:
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Sandra Frey"
-        role: "Lead Developer"
+        role: "Python Plots Champion"
         image: assets/img/team/3.jpg
         social:
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Céline Hirsch"
-        role: "Lead Developer"
+        role: "Web Development Master"
         image: assets/img/team/4.jpg
         social:
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Elia Mounier-Poulat"
-        role: "Lead Developer"
+        role: "Statistics Expert"
         image: assets/img/team/5.jpg
         social:
           - url: https://linkedin.com
@@ -137,7 +137,7 @@ en: &DEFAULT_EN
     legal: "Privacy Policy"
     social:
       - url: https://twitter.com
-        icon: fa-brands fa-github
+        icon: fab fa-github-alt
   
 en-US:
   <<: *DEFAULT_EN
