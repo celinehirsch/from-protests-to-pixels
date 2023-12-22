@@ -31,7 +31,7 @@ en: &DEFAULT_EN
         icon: "426 B $"
       - title: "Top genre"
         icon: "Drama"
-      - title: "Average number of words in plot summaries"
+      - title: "Words in movie plots on average"
         icon: "311"
 
 
