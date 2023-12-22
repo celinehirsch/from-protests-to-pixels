@@ -117,6 +117,7 @@ en: &DEFAULT_EN
   team:
     title: "OUR TEAM"
     section: team
+    subtext: "This project was done in the context of the Applied Data Analysis course (CS-401) given by Robert West at EPFL."
     people:
       - name: "Gianna Biino"
         role: "Notebook Organisation Queen"
