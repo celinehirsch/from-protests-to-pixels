@@ -81,7 +81,7 @@ en: &DEFAULT_EN
     text4: "When analyzing Figure 7, one can observe that the events with the highest rating averages are World War I and World War II."
 
     subtitle5: "Genres"
-    intro5: "An indicator of an events impactfulness is how many different facets of life it affects and what audience it reaches. This can be represented by the diversity of the film industries genres. To evaluate this numerically, for each event the distribution of its genres was plotted and using the gini coefficient their degree of inequality was assessed."
+    intro5: "An indicator of an event's impactfulness is how many different facets of life it affects and what audience it reaches. This can be represented by the diversity of the film industries genres. To evaluate this numerically, for each event the distribution of its genres was plotted and by using the gini coefficient their degree of inequality was assessed."
     text5: "When observing table 1, one can see that the three most equally distributed events over the genres are Drug Abuse, Terrorism and Black History (the top three events)."
 
     subtitle6: "Sentiment"
@@ -89,7 +89,7 @@ en: &DEFAULT_EN
     text6: "When observing Table 2, we can observe that the most emotionally intensive perceived events are LGBTQ, World War II and Genetic Engineering."
 
     subtitle7: "Box Office Revenue"
-    intro7: "The box office revenue of a movie is an indicator of its success in terms of how much money it made. The data was adjusted for inflation starting from the 1980s. Therefore, we average the box office revenue of all movies belonging to different events and compare them. It is important to not that the data was adjusted for inflation starting from the 1980s (due to limitation of enrichment dataset availability).This introduces a slight bias since the values before the 1980s are not adjusted to inflation, however, this bias was deemed smaller in contrast to no adjustment being made at all since the majority of the movies contained in the dataset were produced after the 1980s."
+    intro7: "The box office revenue of a movie is an indicator of its success in terms of how much money it made. Therefore, we average the box office revenue of all movies belonging to different events and compare them. It is important to note that the data was adjusted for inflation starting from the 1980s (due to limitation of enrichment dataset availability). This introduces a slight bias since the values before the 1980s are not adjusted to inflation. However, this bias was deemed smaller in contrast to no adjustment being made at all since the majority of the movies contained in the dataset were produced after the 1980s."
     text7: |
       When observing Figure 5 the following top events can be extracted for the box office revenues: Genetic Engineering, Space Exploration, Atomic Bomb and Digital Revolution.
 
