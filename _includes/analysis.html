@@ -1,6 +1,6 @@
 <!-- Analysis -->
 <section class="page-section" id="{{ site.data.sitetext[site.locale].analysis.section | default: "" }}">
-    <div class="container">
+    <div class="container" style="text-align: justify;">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].analysis.title | default: "About Us" }}</h2>
@@ -70,8 +70,8 @@
           <h4 class="analysis-heading">{{ site.data.sitetext[site.locale].analysis.subtitle7 | default: "" }}</h4>
           <div class="large text-muted">{{ site.data.sitetext[site.locale].analysis.intro7 | markdownify }}</div>
         </div>
-        <div class="d-flex justify-content-center align-items-center">
-          <iframe src="plots/box_office.html" width="800" height="505" frameborder="0"></iframe>
+        <div class="d-flex" style="justify-content: center;">
+          <iframe src="plots/box_office.html" width="800" height="510" frameborder="0"></iframe>
         </div>
         <div class="col-lg-12">
           <p><em>Figure 5: Average Box Office Revenue for movies of a given event with 95% confidence intervals.</em></p>
@@ -109,7 +109,7 @@
           <div class="large text-muted">{{ site.data.sitetext[site.locale].analysis.intro4 | markdownify }}</div>
         </div>
         <div class="d-flex justify-content-center">
-          <iframe src="plots/vote_rating.html" width="1200" height="505" frameborder="0"></iframe>
+          <iframe src="plots/vote_rating.html" width="1200" height="510" frameborder="0"></iframe>
         </div>
         <div class="col-lg-12">
           <p><em>Figure 6: Average rating of movies from an event, received on a scale of 0 to 10 with their 95% confidence intervals.</em></p>
@@ -154,7 +154,7 @@
           <div class="large text-muted">{{ site.data.sitetext[site.locale].analysis.intro6 | markdownify }}</div>
         </div>
         <div class="d-flex justify-content-center">
-          <iframe src="plots/sentiment_scatter.html" width="1200" height="600" frameborder="0"></iframe>
+          <iframe src="plots/sentiment_scatter.html" width="1000" height="505" frameborder="0"></iframe>
         </div>
         <div class="col-lg-12">
           <p><em>Figure 9: Respective placement of events on the emotional spectrum of positive and negative scores. This interactive plot specifies the distance from the origin (0 pos, 0 neg) for each event upon selecting it.</em></p>
