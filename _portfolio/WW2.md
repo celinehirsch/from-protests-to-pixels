@@ -17,6 +17,8 @@ The war raged on many different continents including Europe, Asia and Africa and
 The war ended in 1945 with Germany and Japan surrendering unconditionally. With the end of the war the danger of nuclear weapons was displayed to the world, setting the stage for the Cold War in the years to come. 
 
 {:.list-inline} 
+- **Number of movies associated to this event:** 832
+
 - **Dictionary:**\
 world war ii, world war 2, ww2, wwii, 1939, 1940, 1941, 1942, 1943, 1944, 1945, axis powers, allied powers, hitler, churchill, franklin roosevelt, franklin d. roosevelt, stalin, holocaust, pearl harbor, hiroshima, nagasaki, nazis, nazi, concentration camps, fascism, fascist, dunkirk, atomic bomb, united nations, enigma code, d-day, reich, marshall plan, gestapo, deportation, auschwitz, swastika, ss, blitzkrieg, stalingrad, internment camps, manhattan project, nuremberg trials, luftwaffe, the big three, kamikaze, luftwaffe, manhattan project, normandy, stalingrad, bletchley park, hiroshima, nuremberg trials, codebreakers, yalta conference, warsaw ghetto, nanking massacre, atlantic charter, v-j day, maginot line.
 

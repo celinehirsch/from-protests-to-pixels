@@ -63,6 +63,25 @@
       <!-- Internationality -->
       <br>
 
+      <!-- Box office revenue -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h4 class="analysis-heading">{{ site.data.sitetext[site.locale].analysis.subtitle7 | default: "" }}</h4>
+          <div class="large text-muted">{{ site.data.sitetext[site.locale].analysis.intro7 | markdownify }}</div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <iframe src="plots/fame_average.html" width="1200" height="600" frameborder="0"></iframe>
+        </div>
+        <div class="col-lg-12">
+          <p><em>Figure 5: The three fame sub-parameters: box office revenue, popularity and vote count.</em></p>
+        </div>
+        <div class="col-lg-12">
+          <div class="large text-muted">{{ site.data.sitetext[site.locale].analysis.text7 | markdownify }}</div>
+        </div>
+      </div>
+      <!-- Box office revenue -->
+      <br>
+
       <!-- Fame -->
       <div class="row">
         <div class="col-lg-12">
