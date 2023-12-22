@@ -150,7 +150,7 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://github.com/celinehirsch/from-protests-to-pixels
+      - url: https://github.com/epfl-ada/ada-2023-project-onsecalme123
         icon: fab fa-github
 
   
