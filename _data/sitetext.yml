@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   services:
     title: "First Insights into the Dataset"
-    text: "The Dataset used for this analysis stems from the CMU Movie Summary Corpus that includes a collection of 42’204 movie plot summaries and their corresponding metadata (such as box office revenues, movie release dates, production country). This data was furthermore enriched by an IMDB dataset obtained on Kaggle to on one hand minimize the number of missing values in some categories as well as adding further parameters (such as vote average and popularity of a movie). Since throughout the analysis the movie box office revenue will be of importance an additional dataset from the World Bank Website containing annual inflation indices in percentages for consumer prices was imported and merged to our data. Finally, an additional IMDB dataset containing written reviews from viewers and other public opinion features was merged into the original dataset to add a final parameter in the events impact evaluation we perform."
+    text: "The data used for this analysis stems from the CMU Movie Summary Corpus that includes a collection of 42’204 movie plot summaries and their corresponding metadata (such as box office revenues, movie release dates, production country). This data was furthermore enriched by an IMDB dataset obtained on Kaggle to on one hand minimize the number of missing values in some categories as well as adding further parameters (such as vote average and popularity of a movie). Since throughout the analysis the movie box office revenue will be of importance, an additional dataset from the World Bank Website containing annual inflation indices in percentages for consumer prices was imported and merged to our data. Finally, an additional IMDB dataset containing written reviews from viewers and other public opinion features was merged into the original dataset to add a final parameter in the events impact evaluation we perform."
     section: services
     list:
       - title: "Movies"
@@ -37,7 +37,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Events"
-    text: "To be able to analyze the different key events of the last century, the movies contained in the dataset had to be attributed to the events they address. This was done by examining the plot summaries of movies by keyword search using dictionaries that were created for each event specifically. These dictionaries were initially created using artificial intelligence (ChatGTP) to minimize bias, then they were manually revised to further enrich them and remove unspecific words. Upon creation of the dictionaries, they were evaluated by their F1 score and assigned an optimal threshold (1 to 3 words). If a dictionary did not obtain a score greater than 0.6 for any threshold, this event was eliminated from analysis. After these considerations, the following key events of the last century were studied:"
+    text: "To be able to analyze the different key events of the last century, the movies contained in the dataset had to be attributed to the events they address. This was done by examining the plot summaries of movies by keyword search using dictionaries that were created for each event specifically. These dictionaries were initially created using artificial intelligence (ChatGTP) to minimize bias, then they were manually revised to further enrich them and remove unspecific words. The latter was inspired by the Oxford English Dictionary Words List, to still avoid biasing our data. Upon creation of the dictionaries, they were evaluated by their F1-score and assigned an optimal threshold (1 to 3 words), to ensure the quality of a movie’s assignment to a specific event. If a dictionary did not obtain a score greater than 0.6 for any threshold, this event was eliminated from analysis. After these considerations, the following key events of the last century were studied:"
     section: portfolio
     closebutton: "Close"
 
@@ -46,57 +46,70 @@ en: &DEFAULT_EN
     body: |
       The last century witnessed key social and political events that transformed many facets of human society, ranging from World War I, to Black History, to Digital Revolution. Cinema, being a way to depict real-life, can reflect all those core societal events and movements.
 
-      Our project aims to assess the most influential events and movements of the past century by analyzing their societal impact through the film industry. Recognizing cinema as a reflection of society, we will dig into various aspects of the movie industry related to each event. Six different factors, such as the quantity of films produced and their average ratings, will be considered as indicators of impact. The combined results of these assessments will ultimately guide us in determining the event that had the most significant impact on the world.
+      Our project aims to assess the most influential events and movements of the past century by analyzing their societal impact through the film industry. Recognizing cinema as a reflection of society, we will dig into various aspects of the movie industry related to each event. Six different factors, such as the quantity of films produced for an event and their average ratings, will be considered as indicators of impact. The combined results of these assessments will ultimately guide us in determining the event that had the most significant impact on society.
     
     section: about
   
   analysis:
     title: "Analysis"
     section: analysis
-    text: "To evaluate the impactfulness of the events of the last century multiple parameters were studied and for each of these their top events were identified. To finally determine the most impactful event, the results of the different parameters will be combined."
+    text: "To evaluate the events’ impactfulness, multiple parameters were studied and for each of these, top events having the best scores were identified. To finally determine the most impactful event, the results of the different parameters will be combined and weighted according to their correlations between each other. If a variable is strongly correlated with another one, they will be both less weighted than the others in the final score computation."
 
     subtitle1: "Number of movies"
-    intro1: "The first parameter studied was the number of movies produced per event. This is a very powerful parameter as the quantity of movies produced provides insight into how much a society was affected by an event since cinema is used as a way to process and confront these. It is very important to take into account that the film industry experienced a boom starting in the 1930s around the “Golden Age of Hollywood” up until today so therefore the absolute numbers may contain a bias regarding when an event occurred and at what stage the film industry was at the time. Due to this, to compare the events quantitatively we compare the relative percentages of movies that were produced by an event in comparison to the total movies that were produced per year."
+    intro1: "The first variable studied is the number of movies produced per event, for each year. This is a very powerful parameter as the quantity of movies produced provides insight into how much a society was affected by an event since cinema can be used as a way to reflect it. It is very important to take into account that the film industry experienced a boom starting in the 1930s around the “Golden Age of Hollywood” up until today. Therefore the absolute numbers may contain a bias regarding when an event occurred and at what stage the film industry was at the time. Due to this, to compare the events quantitatively we compare the relative percentages of movies that were produced by an event in comparison to the total movies that were produced per year."
     text1: |
       When observing Figure 2, we can see that the top events for the percentage of movies released per year are World War II and Space. The group of top events is composed of the event with the highest average percentage per year, as well as all the events for which the average percentage lies within the 95% confidence interval of the top event. This strategy for the evaluation of top events will be continued throughout this project.
       
       It is important to take into account that especially in earlier years when the film industry was not yet booming the release of a movie belonging to an event automatically made up a high percentage of the released movies which explains the larger confidence intervals for some events. We did not deem this to add bias to the evaluation since, when not many movies were produced, its production was a major project and thereby also implies a major impact of the event for it to be represented in a movie.
     
     subtitle2: "Internationality"
-    intro2: "A further indicator about the impactfulness of an event is its internationality. If an event was discussed in movies produced by many different countries this implies that the event had a large impact worldwide, not just in a specific region. To quantitatively evaluate which events had the highest international effect we split the world up into its different continents. For each continent we obtained the percentage distribution of movies produced for all events, the sum over the events adding up to 100%. As a further step, the average presence of each event for the different continents taken together was calculated. Like this equal weights were assigned to the different continents, since each region is of high importance when evaluating internationality."
+    intro2: "A further indicator about the impactfulness of an event is its internationality. If an event was discussed in movies produced by many different countries this implies that the event had a large impact worldwide, not just in a specific region. To quantitatively evaluate which events had the highest international effect we split the world up into its different continents. For each continent we obtained the percentage distribution of movies produced for each event, over all events. As a further step, the average presence of each event for the different continents taken together was calculated. Like this equal weights were assigned to the different continents, since each region is of high importance when evaluating internationality."
     text2: |
       When observing Figure 4 the following top international events can be extracted: Space Exploration and Drug Abuse. 
       
       Generally, we can observe that some confidence intervals have very large ranges. This is due to the fact that some events may be very predominant in one continent, however not be very present in the other continents. An example of this is the presence of the event “Black History” in the continent Africa and its relative absence in the other continents which explains its large confidence interval. 
 
     subtitle3: "Fame"
-    intro3: "A further tool to evaluate the impactfulness of an event is its fame. For this, three different sub-parameters were grouped together, namely the box office revenue, the popularity and the vote count. This was possible because a correlation analysis demonstrated a high correlation between these parameters. The sub-parameter “box office revenue” describes the average revenue generated by movies of a given event; it was adjusted for inflation starting from the 1980s (due to limitation of enrichment dataset availability). This introduces a slight bias since the values before the 1980s are not adjusted to inflation, however, this bias was deemed smaller in contrast to no adjustment being made at all since the majority of the movies contained in the dataset were produced after the 1980s. The parameter “popularity” was obtained from the enriched IMDB dataset, ranging from a scale of 0 to 10. Finally, the “vote count” parameter describes the number of people that voted on the rating of a movie, correlated also to the number of people having watched a movie."
+    intro3: "A further tool to evaluate the impactfulness of an event is its fame. For this, two different sub-parameters were grouped together, namely the popularity and the vote count. This was possible because a correlation analysis demonstrated a high correlation between these parameters. The parameter “popularity” was obtained from the enriched IMDB dataset, ranging from a scale of 0 to 10. Finally, the “vote count” parameter describes the number of people that voted on the rating of a movie, correlated also to the number of people having watched a movie."
     text3: |
-      When observing Figure 5, the following top events can be noticed for Box Office Revenue: Space Exploration, STDs, Atomic Bomb and Genetic Engineering. For Popularity, the top events are Genetic Engineering, Space Exploration, Vietnam War, Digital Revolution, STDs, Drug Abuse and Terrorism. Finally, for Vote-Count the top events are Genetic Engineering, Atomic Bomb, STDs, Digital Revolution and Space Exploration.
-
-      In the final analysis these three sub-parameters will have the weight of one complete parameter as they have a high correlation. Nevertheless, it adds valuable information to include all three of them as each of them contributes a slightly different information. 
+      When observing Figure 6, the following top events can be noticed for Popularity: Genetic Engineering, Space Exploration, Vietnam War, Digital Revolution, STDs, Drug Abuse and Terrorism. For Vote-Count the top events are Genetic Engineering, Atomic Bomb, STDs, Digital Revolution and Space Exploration.
+      
+      In the final analysis these two sub-parameters will have the weight of one complete parameter as they have a high correlation. Nevertheless, it adds valuable information to include both of them as each of them contributes a slightly different information. 
 
     subtitle4: "Rating"
     intro4: "The Rating of a movie is an indicator of its success on a scale from 0 to 10 . Therefore, we averaged the ratings of all movies belonging to different events and compared them."
-    text4: "When analyzing Figure 6, one can observe that the events with the highest rating averages are World War I and World War II."
+    text4: "When analyzing Figure 7, one can observe that the events with the highest rating averages are World War I and World War II."
 
     subtitle5: "Genres"
     intro5: "An indicator of an events impactfulness is how many different facets of life it affects and what audience it reaches. This can be represented by the diversity of the film industries genres. To evaluate this numerically, for each event the distribution of its genres was plotted and using the gini coefficient their degree of inequality was assessed."
     text5: "When observing table 2, one can see that the three most equally distributed events over the genres are Drug Abuse, Terrorism and Black History (the top three events)."
 
     subtitle6: "Sentiment"
-    intro6: "As a final parameter we evaluated the sentiment associated with an event. For this, the reviews written by viewers were analyzed by keywords processing and compared to positive and negative word lists established by Patrick O’Perry, a lead data scientist at Oscar Health. Thanks to those, two positive and negative emotional scores were computed and associated with each event. The scores are percentages resulting from the ratio of common words between viewers’ reviews and the positive or negative words lists. Both the positive and negative scores are relevant to assess an impact of an event as it can evoke both extremes of the emotional spectrum, therefore we will consider only the intensity of emotion to determine impactfulness. We will consider the average intensity of emotion over all movies of a given event, in order for this parameter to be representative of an event and not a specific movie."
+    intro6: "As a final parameter we evaluated the sentiment associated with movies about a specific event. For this, the reviews written by viewers were analyzed by keywords processing and compared to positive and negative word lists established by Patrick O’Perry, a lead data scientist at Oscar Health. Thanks to those, two positive and negative emotional scores were computed and associated with each event. The scores are percentages resulting from the ratio of common words between viewers’ reviews and the positive or negative words lists. Both the positive and negative scores are relevant to assess an impact of an event as it can evoke both extremes of the emotional spectrum, therefore we will consider only the intensity of emotion to determine impactfulness. We will consider the average intensity of emotion over all movies of a given event, in order for this parameter to be representative of an event and not a specific movie."
     text6: "When observing Table 3, we can observe that the most emotionally intensive perceived events are LGBTQ, World War II and Genetic Engineering."
 
     subtitle7: "Box Office Revenue"
-    intro7: "intro box office"
-    text7: "text box office"
+    intro7: "The box office revenue of a movie is an indicator of its success in terms of how much money it made. The data was adjusted for inflation starting from the 1980s. Therefore, we average the box office revenue of all movies belonging to different events and compare them. It is important to not that the data was adjusted for inflation starting from the 1980s (due to limitation of enrichment dataset availability).This introduces a slight bias since the values before the 1980s are not adjusted to inflation, however, this bias was deemed smaller in contrast to no adjustment being made at all since the majority of the movies contained in the dataset were produced after the 1980s."
+    text7: |
+      When observing Figure 5 the following top events can be extracted for the box office revenues: Genetic Engineering, Space Exploration, Atomic Bomb and Digital Revolution.
+
+      We can observe a very large confidence interval for the event STDs. This might be explained by the fact that we do not have a lot of movies in this event, which means there will be a higher variability in this subset.
 
 
   conclusion:
     title: "Conclusion"
-    intro: "conclusion intro"
-    text: "Most impactful event of the last century..."
+    intro: |
+      In order to determine the most impactful event, we consider all the parameters of our study as equivalent, meaning all of them are given a weight of 1, except for the ‘popularity’ and ‘vote count’ parameters, we decided to correct their correlation and only assign them with a weight of 0.5.
+      
+      Here is the rule we implemented: 
+      
+      - The top events for each parameter will receive one point and the points will be multiplied by the weight of the parameter in question. 
+      
+      - In the end the points will be summed up and the most impactful event will be determined based on which event has the most points. 
+    text: |
+      Using the previous analysis we find Space Exploration to be the most impactful event of the last century. Space Exploration was one of the top events in four of the seven analyzed parameters. Genetic Engineering and Drug Abuse follow with 3 and 2.5 points respectively.
+      
+      It is interesting that Space Exploration and Genetic Engineering are the two most impactful events. Other than WW1 or WW2 for example they are not limited to a specific time span and have lots of futuristic elements as well.
     section: conclusion
 
   team:
