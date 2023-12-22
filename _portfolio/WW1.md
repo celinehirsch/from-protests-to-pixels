@@ -16,11 +16,11 @@ World War I, also called the Great War, was a global conflict that occurred betw
 To see where we got this information from and learn more, click [here](https://en.wikipedia.org/wiki/World_War_I).
 
 {:.list-inline} 
-- **Number of movies associated to this event:** 254
-
 - **Dictionary:**\
 world war i, world war 1, ww1, wwi, 1914, 1916, 1917, 1918, the great war, verdun, somme, mustard gas, no man's land, armistice, trenches, trench, treaty of versailles, colonial troops, franz ferdinand, wilson, lusitania, central powers, league of nations, 1915, spanish flu, spanish influenza, first world war, zeppelin, zeppelins, christmas truce, trench, trench warfare, triple entente, red baron, war of attrition, attrition warfare, gallipoli, sarajevo, anzac, battle of jutland, battle of the marne.
 
 - **Threshold associated to dictionary:** 2.0
+
+- **Number of movies associated to this event:** 254
 
 - **Most common words in plot summaries:** 

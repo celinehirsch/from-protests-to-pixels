@@ -18,11 +18,11 @@ The end of the Space Race was marked by an increased cooperation between the two
 To see where we got this information from and learn more, click [here](https://en.wikipedia.org/wiki/Space_exploration).
 
 {:.list-inline} 
-- **Number of movies associated to this event:** 739
-
 - **Dictionary:**\
 moon landing, 1969, apollo 11, apollo, space race, neil armstrong, buzz aldrin, michael collins, lunar module, command module, lunar surface, moon mission, lunar landing, astronauts, astronaut, flag planting, apollo program, spaceflight, saturn 5, saturn v, laika, moonwalk, moon rover, spacecraft, nasa, solar system, mars, satellite, satellites, international space station, iss, yuri gagarin, gagarin, sputnik, mercury program, mercury, vostok program, vostok, luna program, space shuttle program, mir space station, gemini, soyuz, spacewalk, moonwalk, space shuttle, cosmonaut, launchpad, skylab, lunar rover, space capsule, space exploration.
 
 - **Threshold associated to dictionary:** 1.0
+
+- **Number of movies associated to this event:** 739
 
 - **Most common words in plot summaries:** 

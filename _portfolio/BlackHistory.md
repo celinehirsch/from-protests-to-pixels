@@ -16,11 +16,11 @@ Throughout history, minorities have endured exploitation and discrimination at t
 To see where we got this information from and learn more, click [here](https://en.wikipedia.org/wiki/African-American_history).
 
 {:.list-inline} 
-- **Number of movies associated to this event:** 286
-
 - **Dictionary:**\
 black history, slavery, emancipation proclamation, underground railroad, jim crow laws, segregation, montgomery bus boycott, martin luther king jr., rosa parks, malcolm x, black panthers, frederick douglass, harriet tubman, sojourner truth, booker t. washington, w.e.b. du bois, civil rights act, voting rights act, black power, african american culture, harlem renaissance, great migration, tuskegee airmen, buffalo soldiers, negro league baseball, black lives matter, kwanzaa, haitian revolution, madam cj walker, tuskegee experiment, zora neale hurston, shirley chisholm, octavius catto, black wall street, black liberation, slave rebellion, freedom riders, hip-hop, african diaspora, american civil war, kkk, ku klux klan, racism, racist, discrimination, segregate, segregated, colored facilities, first black, first african american, civil rights movement, martin luther king, juneteenth, slave, slaves, racists, apartheid, nelson mandela, mlk, black harlem, new negro movement, african american.
 
 - **Threshold associated to dictionary:** 2.0
+
+- **Number of movies associated to this event:** 286
 
 - **Most common words in plot summaries:** 

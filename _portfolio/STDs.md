@@ -16,11 +16,11 @@ Sexually transmitted diseases, abbreviated as STDs, are infections predominantly
 To see where we got this information from and learn more, click [here](https://en.wikipedia.org/wiki/Sexually_transmitted_infection).
 
 {:.list-inline} 
-- **Number of movies associated to this event:** 105
-
 - **Dictionary:**\
 aids, hiv, human immunodeficiency virus, acquired immunodeficiency syndrome, antiretroviral therapy, hiv transmission, hiv testing, aids symptoms, hiv prevention, aids awareness, world aids day, aids activism, freddie mercury, hiv-positive, hiv-negative, sexually transmissible disease, std, syphilis, chlamydia, herpes, sexual health, gonorrhea, papillomavirus, cervical cancer, pelvic inflammatory disease, mycoplasma genitalium, uti, trichomoniasis, infertility, stds, hpv, human papillomavirus, hepatitis, candidiasis, scabies, contraception, pelvic exam, safe sex, sexual health.
 
 - **Threshold associated to dictionary:** 2.0
+
+- **Number of movies associated to this event:** 105
 
 - **Most common words in plot summaries:** 

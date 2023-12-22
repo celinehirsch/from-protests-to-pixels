@@ -16,11 +16,11 @@ Drug abuse entails the excessive, hazardous and harmful consumption of both lega
 To see where we got this information from and learn more, click [here](https://en.wikipedia.org/wiki/Substance_abuse).
 
 {:.list-inline} 
-- **Number of movies associated to this event:** 716
-
 - **Dictionary:**\
 drug, opioid crisis, opioids, opioid, prescription painkillers, heroin, fentanyl, overdose, naloxone, substance abuse, pain management, methadone, morphine, buprenorphine, narcotic analgesics, overdosed, morphium, pain reliever, pain relievers, pain killer, pain killers, pain relief, syringe, syringes, addiction, substance abuse, overdosing, withdrawal, narcotics, detoxification, relapse, cocaine, methamphetamine, gateway drugs, gateway drug.
 
 - **Threshold associated to dictionary:** 2.0
+
+- **Number of movies associated to this event:** 716
 
 - **Most common words in plot summaries:** 

@@ -16,11 +16,11 @@ Genetic engineering involves altering an organism's genes to achieve specific tr
 To see where we got this information from and learn more, click [here](https://en.wikipedia.org/wiki/History_of_genetic_engineering).
 
 {:.list-inline} 
-- **Number of movies associated to this event:** 525
-
 - **Dictionary:**\
 genetic, gene, genes, dna, genome, biotechnology, cloning, clone, clones, crispr-cas9, crispr, genetically modified, gmo, mutation, designer babies, gene therapy, stem cells, in vitro fertilization, ivf, in vitro, epigenetics, regenerative medicine, biohacking, in vivo, gene editing, transgenic, transgene, synthetic biology, genomic, bioinformatics, stem cell, mutagenesis, bioethics, genetically, genetically altered.
 
 - **Threshold associated to dictionary:** 1.0
+
+- **Number of movies associated to this event:** 525
 
 - **Most common words in plot summaries:** 

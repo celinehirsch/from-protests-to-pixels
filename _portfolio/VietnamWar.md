@@ -19,11 +19,11 @@ To see where we got this information from and learn more, click [here](https://e
 
 
 {:.list-inline} 
-- **Number of movies associated to this event:** 344
-
 - **Dictionary:**\
 vietnam war, viet cong, viet, viets, agent orange, napalm, tet offensive, my lai massacre, hanoi, saigon, tonkin, paris peace accords, rolling thunder, agent blue, 1954, 1974, nixon, mekong delta, draft, war powers act, veteran, agent blue, purple heart, vietnamization, cambodia, kennedy, laos, ptsd, veterans, vietnam.
 
 - **Threshold associated to dictionary:** 3.0
+
+- **Number of movies associated to this event:** 344
 
 - **Most common words in plot summaries:** 

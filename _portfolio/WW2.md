@@ -18,11 +18,11 @@ The war ended in 1945 with Germany and Japan surrendering unconditionally. With 
 To see where we got this information from and learn more, click [here](https://en.wikipedia.org/wiki/World_War_II).
 
 {:.list-inline} 
-- **Number of movies associated to this event:** 832
-
 - **Dictionary:**\
 world war ii, world war 2, ww2, wwii, 1939, 1940, 1941, 1942, 1943, 1944, 1945, axis powers, allied powers, hitler, churchill, franklin roosevelt, franklin d. roosevelt, stalin, holocaust, pearl harbor, hiroshima, nagasaki, nazis, nazi, concentration camps, fascism, fascist, dunkirk, atomic bomb, united nations, enigma code, d-day, reich, marshall plan, gestapo, deportation, auschwitz, swastika, ss, blitzkrieg, stalingrad, internment camps, manhattan project, nuremberg trials, luftwaffe, the big three, kamikaze, luftwaffe, manhattan project, normandy, stalingrad, bletchley park, hiroshima, nuremberg trials, codebreakers, yalta conference, warsaw ghetto, nanking massacre, atlantic charter, v-j day, maginot line.
 
 - **Threshold associated to dictionary:** 2.0
+
+- **Number of movies associated to this event:** 832
 
 - **Most common words in plot summaries:**
