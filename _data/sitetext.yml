@@ -81,12 +81,12 @@ en: &DEFAULT_EN
     text4: "When analyzing Figure 7, one can observe that the events with the highest rating averages are World War I and World War II."
 
     subtitle5: "Genres"
-    intro5: "An indicator of an event's impactfulness is how many different facets of life it affects and what audience it reaches. This can be represented by the diversity of the film industries genres. To evaluate this numerically, for each event the distribution of its genres was plotted and by using the gini coefficient their degree of inequality was assessed."
-    text5: "When observing table 1, one can see that the three most equally distributed events over the genres are Drug Abuse, Terrorism and Black History (the top three events)."
+    intro5: "An indicator of an event's impactfulness is how many different facets of life it affects and what audience it reaches. This can be represented by the diversity of the film industries genres. To evaluate this numerically, for each event the distribution of its genres was plotted and by using the <a href='https://en.wikipedia.org/wiki/Gini_coefficient'>Gini coefficient</a> their degree of inequality was assessed."
+    text5: "When observing Table 1, one can see that the three most equally distributed events over the genres are Drug Abuse, Terrorism and Black History (the top three events)."
 
     subtitle6: "Sentiment"
-    intro6: "As a final parameter we evaluated the sentiment associated with movies about a specific event. For this, the reviews written by viewers were analyzed by keywords processing and compared to positive and negative word lists established by Patrick O’Perry, a lead data scientist at Oscar Health. Thanks to those, two positive and negative emotional scores were computed and associated with each event. The scores are percentages resulting from the ratio of common words between viewers’ reviews and the positive or negative words lists. Both the positive and negative scores are relevant to assess an impact of an event as it can evoke both extremes of the emotional spectrum, therefore we will consider only the intensity of emotion to determine impactfulness. We will consider the average intensity of emotion over all movies of a given event, in order for this parameter to be representative of an event and not a specific movie."
-    text6: "When observing Table 2, we can observe that the most emotionally intensive perceived events are LGBTQ, World War II and Genetic Engineering."
+    intro6: "As a final parameter the sentiment associated with movies about a specific event was evaluated. For this, the reviews written by viewers were analyzed by keyword processing and compared to positive and negative word lists established by Patrick O’Perry, a lead data scientist at Oscar Health. Thanks to those, positive and negative emotional scores were computed and associated with each event. The scores are percentages resulting from the ratio of common words between viewers’ reviews and the positive or negative words lists. Both the positive and negative scores are relevant to assess an impact of an event as it can evoke both extremes of the emotional spectrum, therefore we will consider the intensity of both emotions to determine impactfulness. We will consider the average intensity of emotion over all movies of a given event, in order for this parameter to be representative of an event and not a specific movie."
+    text6: "When observing Table 2, we can see that the most emotionally intensive perceived events are LGBTQ, World War II and Genetic Engineering."
 
     subtitle7: "Box Office Revenue"
     intro7: "The box office revenue of a movie is an indicator of its success in terms of how much money it made. Therefore, we average the box office revenue of all movies belonging to different events and compare them. It is important to note that the data was adjusted for inflation starting from the 1980s (due to limitation of enrichment dataset availability). This introduces a slight bias since the values before the 1980s are not adjusted to inflation. However, this bias was deemed smaller in contrast to no adjustment being made at all since the majority of the movies contained in the dataset were produced after the 1980s."
@@ -109,7 +109,9 @@ en: &DEFAULT_EN
     text: |
       Using the previous analysis we find Space Exploration to be the most impactful event of the last century. Space Exploration was one of the top events in four of the seven analyzed parameters. Genetic Engineering and Drug Abuse follow with 3 and 2.5 points respectively.
       
-      It is interesting that Space Exploration and Genetic Engineering are the two most impactful events. Other than WW1 or WW2 for example they are not limited to a specific time span and have lots of futuristic elements as well.
+      It is very interesting to see that Space Exploration and Genetic Engineering are highest on the list describing the impact on society. Both of these topics include futuristic elements, highlighting innovation and research. Rather than focusing on traumatic events they mark major achievements in human history fascinating a broad spectrum of people and opening the door for dreams. This shows us that our society tends to desire addressing relevant issues that allow looking into the future and feel most impacted by them.
+
+
     section: conclusion
 
   team:
