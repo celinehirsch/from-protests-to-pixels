@@ -124,39 +124,39 @@ en: &DEFAULT_EN
         social:
           - url: https://github.com/giabii
             icon: fab fa-github
-          - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ 
-            icon: fab fa-instragram
+          - url: https://www.youtube.com/watch?v=zL19uMsnpSU 
+            icon: fab fa-instagram
       - name: "Charlotte Daumal"
         role: "Keyword Processing Legend"
         image: assets/img/team/2.jpg
         social:
           - url: https://github.com/charlottedaumal
             icon: fab fa-github
-          - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ 
-            icon: fab fa-instragram
+          - url: https://www.youtube.com/watch?v=zL19uMsnpSU
+            icon: fab fa-instagram
       - name: "Sandra Frey"
         role: "Python Plots Champion"
         image: assets/img/team/3.jpg
         social:
           - url: https://github.com/sancatfrey
             icon: fab fa-github
-          - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ 
-            icon: fab fa-instragram
+          - url: https://www.youtube.com/watch?v=zL19uMsnpSU
+            icon: fab fa-instagram
       - name: "Céline Hirsch"
         role: "Web Development Master"
         image: assets/img/team/4.jpg
         social:
           - url: https://github.com/celinehirsch
             icon: fab fa-github
-          - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ 
-            icon: fab fa-instragram
+          - url: https://www.youtube.com/watch?v=zL19uMsnpSU
+            icon: fab fa-instagram
       - name: "Elia Mounier-Poulat"
         role: "Statistics Expert"
         image: assets/img/team/5.jpg
         social:
           - url: https://github.com/eliamounier
             icon: fab fa-github
-          - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ 
+          - url: https://www.youtube.com/watch?v=zL19uMsnpSU
             icon: fab fa-instagram
 
   footer:
