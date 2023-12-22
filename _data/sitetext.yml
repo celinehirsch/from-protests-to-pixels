@@ -157,7 +157,7 @@ en: &DEFAULT_EN
           - url: https://github.com/eliamounier
             icon: fab fa-github
           - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ 
-            icon: fab fa-instragram
+            icon: fab fa-instagram
 
   footer:
     legal: "Privacy Policy"
