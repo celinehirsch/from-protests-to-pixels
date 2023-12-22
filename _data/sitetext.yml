@@ -18,26 +18,26 @@ en: &DEFAULT_EN
 
   services:
     title: "First Insights into the Dataset"
-    text: "The data used for this analysis stems from the CMU Movie Summary Corpus that includes a collection of 42’204 movie plot summaries and their corresponding metadata (such as box office revenues, movie release dates, production country). This data was furthermore enriched by an IMDB dataset obtained on Kaggle to on one hand minimize the number of missing values in some categories as well as adding further parameters (such as vote average and popularity of a movie). Since throughout the analysis the movie box office revenue will be of importance, an additional dataset from the World Bank Website containing annual inflation indices in percentages for consumer prices was imported and merged to our data. Finally, an additional IMDB dataset containing written reviews from viewers and other public opinion features was merged into the original dataset to add a final parameter in the events impact evaluation we perform."
+    text: "The data used for this analysis stems from the CMU Movie Summary Corpus that includes a collection of 42’204 movie plot summaries and their corresponding metadata (such as box office revenues, movie release dates, production country). This data was further enriched by an IMDB dataset obtained on Kaggle to, on one hand, minimize the number of missing values in some categories, as well as adding further parameters (such as vote average and popularity of a movie). Since throughout the analysis the movie box office revenue will be of importance, an additional dataset from the World Bank Website containing annual inflation indices in percentages for consumer prices was imported and merged to our data. Finally, an additional IMDB dataset containing written reviews from viewers and other public opinion features was merged to the original dataset."
     section: services
     list:
       - title: "Movies"
         icon: "42'204"
-      - title: "Years"
+      - title: "Range of Years"
         icon: "1893 - 2014"
       - title: "Continents"
         icon: "6"
-      - title: "Total box office revenue"
+      - title: "Total Box Office Revenue"
         icon: "426 B $"
-      - title: "Top genre"
+      - title: "Top Genre"
         icon: "Drama"
-      - title: "Words in movie plots on average"
+      - title: "Average Words in Movie Plots"
         icon: "311"
 
 
   portfolio:
     title: "Events"
-    text: "To be able to analyze the different key events of the last century, the movies contained in the dataset had to be attributed to the events they address. This was done by examining the plot summaries of movies by keyword search using dictionaries that were created for each event specifically. These dictionaries were initially created using artificial intelligence (ChatGTP) to minimize bias, then they were manually revised to further enrich them and remove unspecific words. The latter was inspired by the Oxford English Dictionary Words List, to still avoid biasing our data. Upon creation of the dictionaries, they were evaluated by their F1-score and assigned an optimal threshold (1 to 3 words), to ensure the quality of a movie’s assignment to a specific event. If a dictionary did not obtain a score greater than 0.6 for any threshold, this event was eliminated from analysis. After these considerations, the following key events of the last century were studied:"
+    text: "To be able to analyze the different key events of the last century, the movies contained in the dataset had to be attributed to the events they address. This was done by examining the plot summaries of movies by keyword search using dictionaries that were created for each event specifically. These dictionaries were initially created using artificial intelligence (ChatGTP) to minimize bias, then they were manually revised to further enrich them and remove unspecific words. The latter was inspired by the Oxford English Dictionary Words List, to avoid biasing our data. Upon creation of the dictionaries, they were evaluated by their F1-score and assigned an optimal threshold (1 to 3 matching words) to ensure the quality of a movie’s assignment to a specific event. If a dictionary did not obtain a F1-score greater than 0.6 for any threshold, this event was eliminated from analysis. After these considerations, the following key events of the last century were studied:"
     section: portfolio
     closebutton: "Close"
 
@@ -46,7 +46,7 @@ en: &DEFAULT_EN
     body: |
       The last century witnessed key social and political events that transformed many facets of human society, ranging from World War I, to Black History, to Digital Revolution. Cinema, being a way to depict real-life, can reflect all those core societal events and movements.
 
-      Our project aims to assess the most influential events and movements of the past century by analyzing their societal impact through the film industry. Recognizing cinema as a reflection of society, we will dig into various aspects of the movie industry related to each event. Six different factors, such as the quantity of films produced for an event and their average ratings, will be considered as indicators of impact. The combined results of these assessments will ultimately guide us in determining the event that had the most significant impact on society.
+      Our project aims to assess the most influential events and movements of the past century by analyzing their societal impact through the film industry. Recognizing cinema as a reflection of society, we will dig into various aspects of the movie industry related to each event. Seven different factors, such as the quantity of films produced for an event and their average ratings, will be considered as indicators of impact. The combined results of these assessments will ultimately guide us in determining the event that had the most significant impact on society.
     
     section: about
   
