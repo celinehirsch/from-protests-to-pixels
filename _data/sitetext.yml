@@ -137,7 +137,7 @@ en: &DEFAULT_EN
     legal: "Privacy Policy"
     social:
       - url: https://twitter.com
-        icon: "fa-brands fa-github"
+        icon: fa-brands fa-github
   
 en-US:
   <<: *DEFAULT_EN
