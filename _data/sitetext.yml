@@ -106,38 +106,36 @@ en: &DEFAULT_EN
         role: "Notebook Organisation Queen"
         image: assets/img/team/1.jpg
         social:
-          - url: https://github.com
+          - url: https://github.com/giabii
             icon: fa fa-github
       - name: "Charlotte Daumal"
         role: "Keyword Processing Maestro"
         image: assets/img/team/2.jpg
         social:
-          - url: https://linkedin.com
+          - url: https://github.com/charlottedaumal
             icon: fab fa-linkedin-in
       - name: "Sandra Frey"
         role: "Python Plots Champion"
         image: assets/img/team/3.jpg
         social:
-          - url: https://linkedin.com
+          - url: https://github.com/sancatfrey
             icon: fab fa-linkedin-in
       - name: "Céline Hirsch"
         role: "Web Development Master"
         image: assets/img/team/4.jpg
         social:
-          - url: https://linkedin.com
+          - url: https://github.com/celinehirsch
             icon: fab fa-linkedin-in
       - name: "Elia Mounier-Poulat"
         role: "Statistics Expert"
         image: assets/img/team/5.jpg
         social:
-          - url: https://linkedin.com
+          - url: https://github.com/eliamounier
             icon: fab fa-linkedin-in
 
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: fab fa-github-alt
       - url: https://twitter.com
         icon: fab fa-github
       - url: https://twitter.com
