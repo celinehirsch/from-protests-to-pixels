@@ -99,13 +99,13 @@ en: &DEFAULT_EN
   conclusion:
     title: "Conclusion"
     intro: |
-      In order to determine the most impactful event, we consider all the parameters of our study as equivalent, meaning all of them are given a weight of 1, except for the ‘popularity’ and ‘vote count’ parameters, we decided to correct their correlation and only assign them with a weight of 0.5.
+      In order to determine the most impactful event, we consider all the parameters of our study as equivalent, meaning all of them are given a weight of 1, except for the ‘popularity’ and ‘vote count’ parameters. For these, we decided to correct their correlation and only assign them with a weight of 0.5.
       
       Here is the rule we implemented: 
       
       - The top events for each parameter will receive one point and the points will be multiplied by the weight of the parameter in question. 
       
-      - In the end the points will be summed up and the most impactful event will be determined based on which event has the most points. 
+      - The points will be summed up and the most impactful event will be determined based on which event has the most points. 
     text: |
       Using the previous analysis we find Space Exploration to be the most impactful event of the last century. Space Exploration was one of the top events in four of the seven analyzed parameters. Genetic Engineering and Drug Abuse follow with 3 and 2.5 points respectively.
       
@@ -124,30 +124,40 @@ en: &DEFAULT_EN
         social:
           - url: https://github.com/giabii
             icon: fab fa-github
+          - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ 
+            icon: fab fa-instragram
       - name: "Charlotte Daumal"
-        role: "Keyword Processing Maestro"
+        role: "Keyword Processing Legend"
         image: assets/img/team/2.jpg
         social:
           - url: https://github.com/charlottedaumal
             icon: fab fa-github
+          - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ 
+            icon: fab fa-instragram
       - name: "Sandra Frey"
         role: "Python Plots Champion"
         image: assets/img/team/3.jpg
         social:
           - url: https://github.com/sancatfrey
             icon: fab fa-github
+          - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ 
+            icon: fab fa-instragram
       - name: "Céline Hirsch"
         role: "Web Development Master"
         image: assets/img/team/4.jpg
         social:
           - url: https://github.com/celinehirsch
             icon: fab fa-github
+          - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ 
+            icon: fab fa-instragram
       - name: "Elia Mounier-Poulat"
         role: "Statistics Expert"
         image: assets/img/team/5.jpg
         social:
           - url: https://github.com/eliamounier
             icon: fab fa-github
+          - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ 
+            icon: fab fa-instragram
 
   footer:
     legal: "Privacy Policy"
